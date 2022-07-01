@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto - El jardin de los gatos</title>
+	<link rel="shortcut icon" href="../img/favicon.ico">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<!-- Start-Container -->
+	<div class="grid-container">
+		<!-- Start-Nav -->
+	<nav id="nav-grid">
+		<a href="../index.html">
+			<img src="../img/isologo-transparente-2.svg" class="isologo" alt="Isologo del jardin de los gatos">
+		</a>
+		<ul>
+			<li><a href="../views/semillas.html">Semillas</a></li>
+			<li><a href="../views/workshops.html">Workshops</a></li>
+			<li><a href="../views/servicios.html">Servicios</a></li>
+			<li><a href="../views/quienes-somos.html">Quienes somos</a></li>
+			<li><a href="#contacto">Contacto</a></li>
+			<li><a href="../views/shop.html">Shop</a></li>
+		</ul>
+	</nav>
+	<!-- End-Nav -->
+	<header id="header-grid">
+		<img src="../img/contact.png" alt="Una persona plantando tomates">
+		<br>
+		<h1 class="text-center grey-background-h1">Contacta con nosotros!</h1>
+    </header>
+	<!-- Start-Main -->
+	<main id="main-grid">
+		<section>
+			<form action="envio.php" id="contacto">
+				<fieldset>
+					<legend>Dejanos tus Datos y nos pondremos en contacto:</legend>
+					<label for="name">::Nombre:::</label>
+					<input type="text" id="name" placeholder="Monty Don">
+					<br>
+					<label for="email">::::Email::::</label>
+					<input type="email" id="email" placeholder="mail@algo.com">
+					<br>
+					<label for="telefono">::Telefono::</label>
+					<input type="tel" id="telefono" placeholder="+541171234567">
+					<br>
+					<label for="direccion">:Direccion::</label>
+					<input type="text" id="direccion" placeholder="Av. 9 de Julio 123">
+					<br>
+					<label for="cp">::::::C.P.:::::</label>
+					<input type="text" id="cp" placeholder="+541171234567">
+					<br>
+					<label for="">::::Zona:::::</label>
+					<select name="zona" id="zona">
+						<option value="caba">CABA</option>
+						<option value="bsas">Buenos Aires</option>
+						<option value="interior">Interior del pais</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<legend>Me gustaria que me envien:</legend>
+					<label for="catalogo">El catalogo completo</label>
+					<input type="checkbox" id="catalogo" value="catalogo">
+					<br><label for="newsletter">El newsletter mensual</label>
+					<input type="checkbox" id="newsletter" value="newsletter">
+				</fieldset>
+				<fieldset>
+					<legend>Tipo de catalogo:</legend>
+					<label for="digital">Catalogo digital</label>
+					<input type="radio" id="digital" name="tipo-de-catalogo" value="digital">
+					<br>
+					<label for="impreso">Catalogo impreso</label>
+					<input type="radio" id="impreso" name="tipo-de-catalogo" value="impreso">
+					<br>
+				</fieldset>
+				<label for="mensaje">Envianos un mensaje:</label>
+				<br>
+				<textarea name="" id="mensaje" cols="64" rows="22"></textarea>
+				<br>
+				<input type="reset" value="Cancelar">
+				<input type="submit" value="Enviar">
+			</form>  
+		</section>
+	</main>
+	<!-- End-Main -->
+	<aside id="aside-grid">
+		<section>
+			<h2 class="text-center grey-background-articules">El Jardin de los Gatos se encuentra en Buenos Aires, partido de Escobar, en el barrio El Cazador.		
+			</h2>
+			<div class="text-center">
+				<iframe class="photo-size" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6590.046747241598!2d-58.76324277003583!3d-34.324424122131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb608abdf2b761%3A0x83151a013d64de5!2sEl%20Cazador%2C%20Bel%C3%A9n%20de%20Escobar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1653788961650!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</section>
+	</aside>
+    <footer id="footer-grid">
+		<img class="f-spacing" src="../img/jardin-de-los-gatos-B.svg" alt="Isologo del jardin de los gatos">
+		<p class="f-spacing">©2022. Powered by Centauro</p>
+		<a href="https://www.instagram.com" target="_blank">
+			<img class="f-spacing" src="../img/instagram-logo.svg" alt="icono de instagram">
+		</a>
+		<a href="https://www.facebook.com" target="_blank">
+			<img class="f-spacing" src="../img/facebook-logo.svg" alt="icono de facebook">
+		</a>
+		<a href="https://www.youtube.com" target="_blank">
+			<img class="f-spacing" src="../img/youtube-logo.svg" alt="icono de youtube">
+		</a>
+		<a href="https://www.linkedin.com" target="_blank">
+			<img class="f-spacing" src="../img/linkedin-logo.svg" alt="icono de linkedin">
+		</a>
+    </footer>
+</div>
+<!-- End-Container -->
+</body>
+</html>

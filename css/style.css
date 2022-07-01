@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+
+
+/* Selectores de etiqueta */
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-image: url(../img/lawn.jpg);
+	background-attachment: auto;	
+}
+
+h1{
+	color: rgb(235, 156, 77);
+	font-family: 'Poppins', sans-serif;
+	font-size: 3rem;
+}
+
+h2{
+	color: rgb(235, 156, 77);
+	font-family: 'Poppins', sans-serif;
+	font-size: 2rem;
+}
+
+p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.7rem;
+	font-weight: 200;
+	line-height: 2.8rem;
+	color: rgb(255, 236, 130);	
+}
+
+nav ul li a {
+	font-size: 2rem;
+	text-decoration: none;
+	color: rgb(235, 156 , 77) !important;
+	font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a:hover{
+	color: rgb(243, 97, 0);
+	font-weight: 500;
+	transform: scaleY(1.1);
+	transform: scaleX(1.1);
+	transition: all 1s ;
+	cursor: pointer;
+}
+
+footer{
+	background-color: rgba(105, 112, 96, 1);
+	padding: 8px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;	
+}
+
+
+/* Selectores de Clase */
+
+.art-pic{
+	margin-top: 1rem;
+	width: 100%;
+}
+
+
+.f-spacing{
+	margin: 0px 5px;
+}
+
+.text-powered-by{
+	color: rgb(235, 156, 77);
+	font-size: 1.5rem;
+}
+
+.nav-bg-grey{
+	background-color: rgba(105, 112, 96, 1);
+}
+
+.grey-background{
+	background-color: rgba(105, 112, 96, 0.7);
+	margin-top: 1rem;
+	padding: 1rem;
+	border-radius: 25px;
+}
+
+.grey-background-h1{
+	background-color: rgba(105, 112, 96, 0.7);
+	padding: 2rem;
+	margin: 2rem;
+	border-radius: 25px;
+}
+
+.grey-background-h2{
+	background-color: rgba(105, 112, 96, 0.7);
+	padding: 1rem;
+	margin: 1rem 0rem;
+	border-radius: 25px;
+}
+
+.grey-background-articles{
+	background-color: rgba(105, 112, 96, 0.7);
+	margin: 0rem 0rem;
+	padding: 0rem 0rem;
+	border-radius: 25px;
+}
+
+.round-borders-25{
+	border-radius: 25px;
+}
+
+.isologo-nav img{
+	width: 82px;
+}
+
+
+
+
+/* Media-Queries */
+
+@media (min-width: 120px) and (max-width: 500px) {
+
+	.isologo-nav img{
+	
+	width: 52px;
+	}
+	
+	}
+
+@media (min-width: 120px) and (max-width: 580px) {
+
+		.text-powered-by{
+		
+		display: none;
+		}
+		
+		}
+	
